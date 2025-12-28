@@ -1,0 +1,5 @@
+--require coffeescript/register
+--reporter spec
+--colors
+--timeout 1800000
+--max-old-space-size=8192
