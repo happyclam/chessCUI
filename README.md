@@ -7,7 +7,7 @@
 * [チェスだけに必要な局面評価属性](https://happyclam.github.io/software/2020-02-11/evaluatechess)
 * [チェスAIとテスト駆動開発](https://happyclam.github.io/software/2024-04-07/tdd)
 * [チェスのStalemateとPINの話](https://happyclam.github.io/software/2024-12-15/chessPIN)
-* [PINされたステイルメイト](https://happyclam.github.io/software/2025-12-30/pinned_stalemate)
+* [PINされたステイルメイト](https://happyclam.github.io/software/2025-12-30/pin_induced_stalemate)
 
 # 環境
 ```
@@ -21,8 +21,8 @@ $ npm install
 ```
 
 # AI同士の対戦
-　自分がUbuntuのターミナル上で固定幅フォントを使って実行している限りは問題起きてませんが、Unicode駒を使ってますので環境によっては表示がズレるかもしれません。  
-　CUI版では千日手（Threefold Repetition）回避のロジックが無いので千日手になるケースが多いです。
+　Ubuntuのターミナル上で固定幅フォントを使って実行している限りは問題起きてませんが、Unicode駒を使ってますので環境によっては表示がズレるかもしれません。  
+　CUI版には千日手（Threefold Repetition）回避のロジックが無いので千日手になるケースが多いです。
 ```
 $ coffee game.coffee
 :
